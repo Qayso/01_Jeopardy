@@ -1,0 +1,25 @@
+#JeopradyHeader {
+  display:flex;
+  flex-flow: row;
+  justify-content:center
+}
+
+#JeopradyLandingImg {
+  display:flex;
+  flex-flow: row;
+  justify-content: center;
+
+  
+}
+
+btn {
+  display:flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+footer {
+  display:flex;
+  flex-flow: row;
+  justify-content: center;
+}
