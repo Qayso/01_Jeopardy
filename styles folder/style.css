@@ -1,25 +1,86 @@
-#JeopradyHeader {
-  display:flex;
-  flex-flow: row;
-  justify-content:center
+body {
+  background-image: url("../assets folder/landing_background_img.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 32px;
 }
 
-#JeopradyLandingImg {
-  display:flex;
-  flex-flow: row;
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#JeopardyHeader {
+  font-size: 28px;
+  color: white;
+  
+}
+
+h1 {
+  display: flex;
   justify-content: center;
+}
+
+#jeopardy_landing_img {
+  display: flex ; 
+  justify-content: center;
+  flex-flow: row
+}
+
+img {
+  border-style:double;
+  border-color: goldenrod
+}
+
+#play_button {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+btn {
+  display: inline-block;
+  width: 128px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:  burlywood;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #cdcbcb36;
+}
+
+btn:hover {
+  background-color: rgba(98, 98, 255, 0.749)
+}
+
+btn:active {
+  background-color: white;
+  box-shadow: 0 5px #cdcbcb36;
+  transform: translateY(4px)
+
+
+
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  background-color: blue;
 
   
 }
 
-btn {
-  display:flex;
-  flex-flow: row;
-  justify-content: center;
-}
-
-footer {
-  display:flex;
-  flex-flow: row;
-  justify-content: center;
-}
