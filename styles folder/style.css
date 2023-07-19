@@ -1,9 +1,12 @@
 body {
-  background-image: url("../assets folder/landing_background_img.png");
+  width: 905px auto;
+  height:1147px auto;
+ background-image: url("../assets folder/landing_background_img.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 32px;
+  padding-top: 128px;
+  color: white;
 }
 
 main {
@@ -14,7 +17,7 @@ main {
 
 #JeopardyHeader {
   font-size: 28px;
-  color: white;
+  
   
 }
 
@@ -51,7 +54,7 @@ btn {
   text-decoration: none;
   outline: none;
   color:  burlywood;
-  background-color: blue;
+  background-color: grey;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #cdcbcb36;
@@ -65,22 +68,22 @@ btn:active {
   background-color: white;
   box-shadow: 0 5px #cdcbcb36;
   transform: translateY(4px)
-
-
-
 }
+
 footer {
   display: flex;
   justify-content: center;
-  margin-top: auto;
-
+  margin-top: 166.5px;
+  text-align: center;
 }
 
-h3 {
+#footer_text {
   color: white;
+  background-color: grey;
   font-size: 24px;
-  background-color: blue;
-
-  
+  border-style: solid;
+  border-color: black;
+  border-radius: 12px;
+  width: 700px;
 }
 

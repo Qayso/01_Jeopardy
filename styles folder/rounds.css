@@ -1,0 +1,138 @@
+h1{
+  margin-bottom: 0%;
+}
+
+#firstRound_subHeader {
+  display: flex;
+  align-self:  flex-start;
+  justify-content: center;
+}
+
+#Game_Board {
+  color:black;
+  display: grid;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 50px;
+  
+  
+}
+
+#Category_Header {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr ;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ; */
+  border: 1px solid rgba(0, 0, 0, 0);
+  
+  
+}
+
+.Category {
+  padding: 1px 2px;
+  text-transform: uppercase;
+  background-color: goldenrod;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  
+}
+
+.points_container {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.Points {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  text-align: center;
+}
+
+.Category:hover {
+    font-size: larger;
+    cursor: pointer;
+  
+  }
+      
+  li:hover .description {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Points:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  
+  }
+      
+  li:hover .description {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#answer_input_form {
+  margin-top: 25px;
+  display: grid;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#guess_pass_btn_container {
+  margin-top: 15px;
+  justify-self: center;
+}
+
+.guess_pass_btn {
+  padding: 2px 15px;
+}
+
+#player_score_container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: large;
+  
+}
+
+#player_score_1 {
+  text-align: center;
+  
+}
+
+#player_score_2 {
+  grid-column-start: end;
+  text-align: center;
+  
+}
+
+#prev_next_round_container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: large;
+}
+
+  #next_round_container {
+    grid-column-start: end;
+    text-align: center;
+    
+    
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
