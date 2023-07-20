@@ -1,0 +1,47 @@
+#Round_subHeader {
+  padding-top: 10px;
+}
+
+#Final_Header {
+  font-size: 20px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+#Final_Category {
+  display: inline-flex;
+  background-color: goldenrod;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+}
+
+#Final_Question_Container {
+  font-size: 20px;
+  margin-top: 28px;
+  text-align: center;
+  
+}
+
+#Final_Question {
+  display: inline-flex;
+  flex-wrap: wrap;
+  color:goldenrod;
+  background-color: whitesmoke;
+  margin: 50px 190px 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#answer_input_form {
+  display: grid;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#answer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
