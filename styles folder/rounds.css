@@ -1,10 +1,10 @@
-h1{
+h1 {
   margin-bottom: 0%;
 }
 
-#firstRound_subHeader {
+#Round_subHeader {
   display: flex;
-  align-self:  flex-start;
+  align-self:flex-start;
   justify-content: center;
 }
 
@@ -14,7 +14,6 @@ h1{
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 50px;
-  
   
 }
 
@@ -38,6 +37,13 @@ h1{
   
 }
 
+.Category::selection {
+  background-color: white;
+  color:red
+}
+
+
+
 .points_container {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
@@ -51,16 +57,6 @@ h1{
   text-align: center;
 }
 
-.Category:hover {
-    font-size: larger;
-    cursor: pointer;
-  
-  }
-      
-  li:hover .description {
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .Points:hover {
     opacity: 0.5;
@@ -68,11 +64,6 @@ h1{
   
   }
       
-  li:hover .description {
-    text-decoration: underline;
-    cursor: pointer;
-
-}
 
 #answer_input_form {
   margin-top: 25px;
@@ -122,6 +113,14 @@ h1{
     
     
   
+}
+
+#prev_round_container {
+  grid-column-start: auto;
+  text-align: center;
+  
+  
+
 }
 
 footer {
