@@ -1,3 +1,10 @@
+#brand_link_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+ }
+
 body {
   width: 905px auto;
   height:1147px auto;
@@ -22,17 +29,14 @@ main {
 h1 {
   display: flex;
   justify-content: center;
+  flex-flow:nowrap  ;
+  
 }
 
 #jeopardy_landing_img {
   display: flex ; 
   justify-content: center;
-  flex-flow: row
-}
-
-img {
-  border-style:double;
-  border-color: goldenrod
+  flex-flow: row;
 }
 
 #play_button {
@@ -42,7 +46,7 @@ img {
   align-items: center;
 }
 
-btn {
+button {
   display: inline-block;
   width: 128px;
   padding: 15px 25px;
@@ -58,11 +62,11 @@ btn {
   box-shadow: 0 9px #cdcbcb36;
 }
 
-btn:hover {
+button:hover {
   background-color: rgba(98, 98, 255, 0.749)
 }
 
-btn:active {
+button:active {
   background-color: white;
   box-shadow: 0 5px #cdcbcb36;
   transform: translateY(4px)

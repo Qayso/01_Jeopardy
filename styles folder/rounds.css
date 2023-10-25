@@ -71,12 +71,12 @@ h1 {
   justify-content: space-evenly;
 }
 
-#guess_pass_btn_container {
+#guess_pass_button_container {
   margin-top: 15px;
   justify-self: center;
 }
 
-.guess_pass_btn {
+.guess_pass_button {
   padding: 2px 15px;
 }
 
